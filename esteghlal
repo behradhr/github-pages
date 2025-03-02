@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مقالات فوتبالی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مقالات فوتبالی</h1>
+        <p>تمامی اخبار و مقالات مرتبط با دنیای فوتبال</p>
+    </header>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="جستجو مقالات..." onkeyup="filterArticles()">
+    </div>
+    <div id="article-list" class="article-list">
+        <!-- مقالات اینجا نمایش داده می‌شوند -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
